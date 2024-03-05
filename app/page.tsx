@@ -1,12 +1,12 @@
 import Image from "next/image";
-import avatar from "@/assets/images/avatar.png";
+import avatar from "@/assets/images/illustration-article.svg";
 import user from "@/assets/images/image-avatar.webp";
 export default function Home() {
   return (
     <div className="body flex justify-center items-center h-screen">
       <div className="card w-96 h-10/12 p-4 rounded-2xl border-gray-950 border border-spacing-1 ">
         <div className="hader  ">
-          <Image src={avatar} alt="Image" className="w-full h-52 " />
+          <Image src={avatar} alt="Image" className="w-full h-52 rounded-xl " />
         </div>
         <div className="body mt-6">
           <button className="button rounded-md p-1 w-22 px-3">Learning</button>
