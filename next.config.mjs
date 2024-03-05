@@ -5,7 +5,7 @@ const isPord = process.env.NODE_ENV === "production";
 const nextConfig = {
   basePath: isPord ? "/Blog-preview-card" : "",
   output: "export",
-//   distDir: "dist",
+  distDir: "dist",
   images: {
     unoptimized: true,
   },
