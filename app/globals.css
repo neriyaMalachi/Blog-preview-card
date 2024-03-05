@@ -38,6 +38,9 @@ body {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+}.h1:hover{
+  color: hsl(47, 88%, 63%) ;
+  cursor: pointer;
 }
 .h2 {
   font-family: "Figtree", sans-serif;
